@@ -294,7 +294,7 @@ client.on('message', message => {
               .addField('» السيرفر :', `${message.guild.name}`)
               .addField('» المرسل : ', `${message.author.username}#${message.author.discriminator}`)
               .addField(' » الرسالة : ', args)
-                  .setFooter('ELBobGamer Bot','https://f.top4top.net/p_927hgca71.png')
+                  .setFooter('Mega  Bot','https://f.top4top.net/p_927hgca71.png')
               .setColor('#ff0000')
               // m.send(`[${m}]`);
               m.send(`${m}`,{embed: bc});
@@ -655,7 +655,7 @@ function play(guild, song) {
 
 
 	client.on('ready', () => {
-		client.user.setGame(`!help | By: ELBobGamer`,"http://twitch.tv/elbobgamer")
+		client.user.setGame(`!help | By: Mahmoud Youssef`,"http://twitch.tv/elbobgamer")
 		 client.user.setStatus("dnd")
 	  });
 
