@@ -5,7 +5,7 @@ const prefix = "!";
 client.on('ready', () => {
   console.log('╔[════════════════════════════════════]╗');
   console.log('            ╔[════════════]╗')
-  console.log('           ELBobBot Is Online')
+  console.log('           ELBot Is Online')
   console.log('            ╚[════════════]╝')
   console.log('╚[════════════════════════════════════]╝');
 });
@@ -23,7 +23,7 @@ client.on('message', message => {
 
 
  message.author.sendMessage(`
-**ELBobBot** By: ELBobGamer ツ ᵖᵍˣᵖᵒ ♥#0881
+**ELBobBot** By: Mahmoud Youssef#1110
 
 ╭━━━┳╮╱╱╭━━╮╱╱╱╭╮╱╭━━╮╱╱╱╭╮
 ┃╭━━┫┃╱╱┃╭╮┃╱╱╱┃┃╱┃╭╮┃╱╱╭╯╰╮
