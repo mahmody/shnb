@@ -294,7 +294,7 @@ client.on('message', message => {
               .addField('» السيرفر :', `${message.guild.name}`)
               .addField('» المرسل : ', `${message.author.username}#${message.author.discriminator}`)
               .addField(' » الرسالة : ', args)
-                  .setFooter('Mega  Bot','https://f.top4top.net/p_927hgca71.png')
+                  .setFooter('Super  Bot','https://f.top4top.net/p_927hgca71.png')
               .setColor('#ff0000')
               // m.send(`[${m}]`);
               m.send(`${m}`,{embed: bc});
@@ -1988,7 +1988,7 @@ var al7arthyCodes2 = ["📙__60%__  **|**  📘__40%__","📙__63%__  **|**  �
 client.on('message', message => {
     if(!message.guild) return;
     if (message.author.bot) return;
-      let id = message.author.id,prefix="!";//البريفكس
+      let id = message.author.id,prefix="-";//البريفكس
       if (ti[id] && (new Date).getTime() - ti[id] < 20*1000) {
           let r = (new Date).getTime() - ti[id];
           r = 20*1000 - r;
