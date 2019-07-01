@@ -23,7 +23,7 @@ client.on('message', message => {
 
 
  message.author.sendMessage(`
-**ELBobBot** By: Mahmoud Youssef#1110
+**Demon's Red Bot** By: Mahmoud Youssef#1110
 
 ╭━━━┳╮╱╱╭━━╮╱╱╱╭╮╱╭━━╮╱╱╱╭╮
 ┃╭━━┫┃╱╱┃╭╮┃╱╱╱┃┃╱┃╭╮┃╱╱╭╯╰╮
@@ -510,7 +510,8 @@ client.on('message', async msg => {
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("ELBobBot")
+					.setFooter("Demon Bot
+						   ")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					try {
@@ -715,7 +716,7 @@ client.on('typingStart', (ch, user) => {
 
 
 client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', 'welcome');
+    let channel = member.guild.channels.find('name', '𝒟emons😈');
     let memberavatar = member.user.avatarURL
       if (!channel) return;
     let embed = new Discord.RichEmbed()
@@ -762,7 +763,7 @@ client.on('message', message => {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``ELBob Bot`` ')
+            .setTitle('``Demon Bot`` ')
             .addField('``Uptime``', [timeCon(process.uptime())], true)
             .addField('``Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
@@ -773,7 +774,7 @@ client.on('message', message => {
             .addField('``ID``' , `[ ${client.user.id} ]` , true)
                   .addField('``Prefix``' , `[ ! ]` , true)
                   .addField('``Language``' , `[ Java Script ]` , true)
-                  .addField('``Founder ``' , ` [ ELBobGamer ツ ᵖᵍˣᵖᵒ ♥#0881 ] ` , true)
+                  .addField('``Founder ``' , ` [Mál ,♕~✩#1053 ] ` , true)
     })
 }
 });
@@ -2786,7 +2787,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL)
-.addField('ELBobBot' ,
+.addField('Demon bot' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
